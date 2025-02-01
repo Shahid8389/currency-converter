@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" 
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" 
+          referrerpolicy="no-referrer" />
+    <title>Currency Converter</title>
+</head>
+<body>
+    <div class="container">
+        <div class="heading">
+            <h2>Currency Converter</h2>
+        </div>
+
+        <div class="userInput">
+            <p>Input:</p>
+            <input type="text" value="1">
+        </div>
+
+        <div class="currency-div">
+
+            <div class="fromCurrency">
+                <select id="from">
+                    
+                </select>
+                
+                <img src="https://flagsapi.com/US/flat/64.png">
+            </div>
+
+            <i class="fa-solid fa-arrow-right-arrow-left"></i>
+        
+            <div class="toCurrency">
+                <select id="to">
+                    
+                </select>
+            
+                <img src="https://flagsapi.com/IN/flat/64.png">
+            </div>
+
+        </div>
+
+        <div class="convert-btn">
+            <button id="convert">Convert</button>
+        </div>
+
+        <div class="output-value">
+            <p id="output"></p>
+        </div>
+
+    </div>
+
+    <script src="codes.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

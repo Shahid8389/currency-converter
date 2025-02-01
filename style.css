@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: linear-gradient(130deg, rgb(104, 197, 104), rgb(92, 152, 90));
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    background-color: rgb(232, 236, 240);
+    border-radius: 7px;
+    min-height: 50%;
+    min-width: 25%;
+    max-width: 25%;
+}
+
+.heading{
+    text-align: center;
+    color: rgb(0, 0, 0);
+    margin: 10px 0px 20px 0px;
+    font-size: 20px;
+}
+
+.userInput{
+    margin: 5px 20px 40px 20px;
+    display: flex;
+    gap: 0.3rem;
+    align-items: center;
+}
+
+.userInput p{
+    font-size: 21px;
+}
+
+.userInput input{
+    width: 100%;
+    outline: none;
+    border: 1px solid gray;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 17px;
+}
+
+.currency-div{
+    margin-left: 20px;
+    margin-right: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.currency-div img{
+    width: 2rem;
+}
+
+.currency-div select{
+    height: 2rem;
+    border-radius: 10px;
+    padding: 5px 7px;
+    outline: none;
+}
+
+
+.fromCurrency, .toCurrency{
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+}
+
+.convert-btn{
+    margin: 50px 20px 10px 20px;
+}
+
+#convert{
+    width: 100%;
+    padding: 5px;
+    border-radius: 10px;
+    outline: none;
+    background-color: rgb(116, 44, 234);
+    border: none;
+    color: white;
+    font-size: 25px;
+}
+
+
+.output-value{
+    margin: 30px 20px 10px 20px;
+}
+
+.output-value p{
+    border: 1px solid gray;
+    width: 100%;
+    border-radius: 5px;
+    padding: 5px 10px;
+    font-size: 20px;
+    overflow: auto;
+}
